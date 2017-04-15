@@ -1,0 +1,6 @@
+library(dply)
+library(tidyr)
+library(readr)
+ustointer <- read_csv("../clean_data/clean_monthly_us_to_international.csv")
+intertous <- read_csv("../clean_data/clean_monthly_visitation_inbound_country.csv")
+spending <- read_csv("../clean_data/clean_yearly_spending_region.csv")

@@ -42,27 +42,49 @@ shinyUI(
    
 navbarPage("American On the Way", id="nav",
               
-tabPanel("Interactive map",
+tabPanel("Number of Travelers",
    
          fluidPage(
    
+           tabsetPanel(
+             tabPanel("Interactive Map", 
+                      hr(),
+                      sidebarPanel(width = 3,
+                        sliderInput("Year", "Select Year for Interactive Map:",
+                                    min = 2005, max = 2015, value = 20, step = 1,format="###0",animate=TRUE)),
+                      mainPanel(width = 9,
+                        h4(textOutput("year"),  align = "center"),htmlOutput("geogvis"))
+                      ),
+                      
+             tabPanel("Regional Summary", 
+                      hr(),
+                      sidebarPanel(width = 3,
+                                   selectizeInput('inorout', 'Direction',choices = c("Inbound", "Outbound"), selected="")),
+                      mainPanel(width = 9,
+                                h4(textOutput("myDirection"),  align = "center"),plotlyOutput('inoroutboundcount', height = 600))
+             ),
+                      
+             tabPanel("Regional details", 
+                      hr(),
+                      sidebarPanel(width = 3,
+                      selectizeInput('Regionsel', 'Region',choices = regional_travel$Region, selected=""),
+                      selectizeInput('inoroutboth', 'Direction',choices = c("Inbound", "Outbound", "Both"))),
+                      mainPanel(width = 9,
+                                h4(textOutput("myDirection2"), textOutput("myRegion"),  align = "center"),
+                                plotlyOutput('regional_details', height = 600)))
+          
       
-      sidebarLayout(
+   ))),
+
+tabPanel("Spending Analysis",
          
-         sidebarPanel(width = 3,
-            sliderInput("Year", "Select Year:",  
-                        min = 1996, max = 2016, value = 20, step = 1,format="###0",animate=TRUE),
-            selectizeInput('inorout', 'Direction',
-                                     choices = c("inbound", "outbound"), selected="")
-            
-         ),
+         fluidPage(
+           
+           mainPanel(
+             plotlyOutput('inboundspending')
+             ))
          
-         mainPanel(width = 9,
-            h4(textOutput("year"), align = "center"), 
-                     htmlOutput("geogvis"),
-                      htmlOutput("column")
-         )
-      )
-   ))
+
+)
 )
 )

@@ -1,0 +1,10 @@
+name: shiny
+title: shiny
+account: viz233
+server: shinyapps.io
+appId: 172615
+bundleId: 791180
+url: https://viz233.shinyapps.io/shiny/
+when: 1492372529.5368
+asMultiple: FALSE
+asStatic: FALSE

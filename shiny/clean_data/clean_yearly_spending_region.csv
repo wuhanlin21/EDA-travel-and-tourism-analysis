@@ -1,0 +1,49 @@
+region,type,category,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015
+Africa,Receipts (exports),Education,930,961,1013,1068,1100,1135,1145,1210,1296,1441
+Africa,Receipts (exports),Medical/Short-Term Workers,208,183,192,168,84,88,98,99,109,117
+Africa,Receipts (exports),Other Business/Other Personal Travel,1390,1594,1954,1475,1593,1828,1846,2512,2898,2932
+Africa,Payments (imports),Education,137,161,193,227,245,246,261,277,264,275
+Africa,Payments (imports),Medical/Short-Term Workers,29,30,32,30,31,33,33,34,35,37
+Africa,Payments (imports),Other Business/Other Personal Travel,1740,2435,3479,3592,3058,3379,3406,3576,3487,3510
+Asia-Pacific,Receipts (exports),Education,8566,9455,10947,12221,13274,14644,16052,17790,20165,23368
+Asia-Pacific,Receipts (exports),Medical/Short-Term Workers,836,810,850,774,672,764,840,880,945,1008
+Asia-Pacific,Receipts (exports),Other Business/Other Personal Travel,23160,24756,26798,24288,31030,33360,38470,43534,48250,53330
+Asia-Pacific,Payments (imports),Education,626,667,740,782,850,874,928,983,1055,1111
+Asia-Pacific,Payments (imports),Medical/Short-Term Workers,623,679,747,821,919,1008,1111,1221,1353,1500
+Asia-Pacific,Payments (imports),Other Business/Other Personal Travel,13877,16160,16747,14675,16062,15973,18819,18363,19453,21245
+Europe ,Receipts (exports),Education,2216,2356,2543,2713,2735,2836,2948,3030,3230,3520
+Europe ,Receipts (exports),Medical/Short-Term Workers,697,687,722,696,607,651,728,849,890,930
+Europe ,Receipts (exports),Other Business/Other Personal Travel,25592,20629,37831,30128,32483,35984,36055,37106,40760,45039
+Europe ,Payments (imports),Education,2658,2801,2997,2878,3042,3281,3406,3680,3968,4112
+Europe ,Payments (imports),Medical/Short-Term Workers,346,375,400,410,33,460,486,517,553,592
+Europe ,Payments (imports),Other Business/Other Personal Travel,28150,29029,28982,23707,25352,27606,30889,28631,30638,33347
+European Union ,Receipts (exports),Education,1397,1601,1708,1800,1820,1895,1982,2062,2233,2452
+European Union ,Receipts (exports),Medical/Short-Term Workers,519,505,530,413,450,485,551,658,690,722
+European Union ,Receipts (exports),Other Business/Other Personal Travel,23122,27957,34120,26681,28553,31029,29795,31551,34675,38966
+European Union ,Payments (imports),Education,2558,2693,2856,2761,2915,3146,3275,3539,3811,3947
+European Union ,Payments (imports),Medical/Short-Term Workers,277,302,324,334,354,376,399,428,458,492
+European Union ,Payments (imports),Other Business/Other Personal Travel,25344,26291,26245,21092,22834,24868,27426,25569,27545,29924
+Latin America,Receipts (exports),Education,1684,1757,1857,1961,1960,2004,2029,2206,2494,3064
+Latin America,Receipts (exports),Medical/Short-Term Workers,8534,8011,8723,7229,7248,7268,7715,8080,8438,8958
+Latin America,Receipts (exports),Other Business/Other Personal Travel,17334,20822,21149,1691,22607,25361,27052,31560,33701,35367
+Latin America,Payments (imports),Education,891,915,1014,1048,1095,1136,1231,1322,1446,1511
+Latin America,Payments (imports),Medical/Short-Term Workers,100,109,117,122,131,141,153,163,177,192
+Latin America,Payments (imports),Other Business/Other Personal Travel,25538,25958,26780,23640,25012,25503,28974,28753,32769,35867
+Middle East ,Receipts (exports),Education,474,607,712,810,966,1289,1758,2202,2735,3292
+Middle East ,Receipts (exports),Medical/Short-Term Workers,171,166,175,170,143,146,155,169,179,186
+Middle East ,Receipts (exports),Other Business/Other Personal Travel,1515,1710,2041,2237,2524,3087,2829,4037,4765,4615
+Middle East ,Payments (imports),Education,43,47,58,68,87,91,94,93,103,108
+Middle East ,Payments (imports),Medical/Short-Term Workers,104,108,111,107,110,114,118,120,125,131
+Middle East ,Payments (imports),Other Business/Other Personal Travel,1636,1889,2751,2803,2924,2490,2776,2913,2864,3034
+Overseas ,Receipts (exports),Education,13513,14760,16653,18341,20873,21475,23479,25960,29398,34079
+Overseas ,Receipts (exports),Medical/Short-Term Workers,3325,3115,3273,3013,3429,2434,2628,2857,3047,3204
+Overseas ,Receipts (exports),Other Business/Other Personal Travel,61845,72261,82417,71778,81686,93153,99267,111309,122602,133100
+Overseas ,Payments (imports),Education,4066,4312,4709,4734,5051,5392,5680,6105,6563,6833
+Overseas ,Payments (imports),Medical/Short-Term Workers,1156,1251,1349,1325,1549,1675,1812,1952,2131,2328
+Overseas ,Payments (imports),Other Business/Other Personal Travel,60938,65193,68494,59343,63319,66159,75385,71953,76928,83752
+South-Central America ,Receipts (exports),Education,1335,1401,1508,1560,1560,1631,1696,1840,2118,2690
+South-Central America ,Receipts (exports),Medical/Short-Term Workers,7983,7532,8217,6807,7105,7097,7538,7891,8227,8740
+South-Central America ,Receipts (exports),Other Business/Other Personal Travel,15054,17947,18676,17481,20422,23140,24845,29069,30812,32237
+South-Central America ,Payments (imports),Education,784,803,893,916,954,979,1047,1122,1227,1282
+South-Central America ,Payments (imports),Medical/Short-Term Workers,72,79,86,92,101,110,120,129,143,157
+South-Central America ,Payments (imports),Other Business/Other Personal Travel,15888,16400,17220,15085,15819,15778,17914,18490,21040,22554

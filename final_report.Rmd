@@ -211,6 +211,13 @@ ggplot(tidy_wb_gdp, aes(x=Year, y=Country.Name,  fill = Missing)) +
 #### Data Cleaning
 
 #### Challenges
+There are some challenges in our project:
+
+* The data set itself is not well-organized so that we have to spend plenty of time in cleaning and re-organizing it.
+For example, we need country level data to plot the map of yearly international inbounds and US outbounds, however, the data set only has monthly region level data. It also contains some unnecessary summations and decompositions that should not be contained in the same table. In that case, we can only use the region level data instead of country level data, which makes the analysis not very comprehensive.
+
+* We are using shiny app to create the interactive graphs but we do not have previous experience in it. Therefore, we need time to learn and test the code. It is a great learning experience, however, not easy for us in such a short time.
+
 
 #### Analysis
 
